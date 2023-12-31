@@ -1,0 +1,14 @@
+C:\Users\YK\Desktop\Dev\C#\oop\bin\Debug\net7.0\oop.exe
+C:\Users\YK\Desktop\Dev\C#\oop\bin\Debug\net7.0\oop.deps.json
+C:\Users\YK\Desktop\Dev\C#\oop\bin\Debug\net7.0\oop.runtimeconfig.json
+C:\Users\YK\Desktop\Dev\C#\oop\bin\Debug\net7.0\oop.dll
+C:\Users\YK\Desktop\Dev\C#\oop\bin\Debug\net7.0\oop.pdb
+C:\Users\YK\Desktop\Dev\C#\oop\obj\Debug\net7.0\oop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YK\Desktop\Dev\C#\oop\obj\Debug\net7.0\oop.AssemblyInfoInputs.cache
+C:\Users\YK\Desktop\Dev\C#\oop\obj\Debug\net7.0\oop.AssemblyInfo.cs
+C:\Users\YK\Desktop\Dev\C#\oop\obj\Debug\net7.0\oop.csproj.CoreCompileInputs.cache
+C:\Users\YK\Desktop\Dev\C#\oop\obj\Debug\net7.0\oop.dll
+C:\Users\YK\Desktop\Dev\C#\oop\obj\Debug\net7.0\refint\oop.dll
+C:\Users\YK\Desktop\Dev\C#\oop\obj\Debug\net7.0\oop.pdb
+C:\Users\YK\Desktop\Dev\C#\oop\obj\Debug\net7.0\oop.genruntimeconfig.cache
+C:\Users\YK\Desktop\Dev\C#\oop\obj\Debug\net7.0\ref\oop.dll
