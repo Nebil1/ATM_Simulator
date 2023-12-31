@@ -19,8 +19,6 @@ namespace ATM_Simulator
     {
         accounts = new List<Account>
         {
-            new Account("Nebil Yisehak", "100026", 1234, "123456789", 1000),
-            new Account("Aregay Teklay", "100020", 4321, "987654321", 500),
             new Account("John Smith", "100021", 1111, "123123123", 2000),
             new Account("Jane Smith", "100023", 2222, "321321321", 3000),
         };
