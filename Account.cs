@@ -41,7 +41,7 @@ class Account
     {
         try
         {
-            System.IO.File.WriteAllLines("transactionHistory.txt", transactionHistory);
+            System.IO.File.AppendAllLines("transactionHistory.txt", transactionHistory);
         }
         catch (Exception ex)
         {
