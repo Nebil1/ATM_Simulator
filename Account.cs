@@ -9,6 +9,7 @@ class Account
         public int Pin { get; set; }
         public string IdNumber { get; set; }
         public decimal Balance { get; set; }
+
         private List<string> transactionHistory = new List<string>();
     
     public Account(string cardHolder, string accountNumber, int pin, string idNumber, decimal balance)
@@ -23,13 +24,15 @@ class Account
     public void Deposit(decimal amount)
     {
         Balance += amount;
-        transactionHistory.Add($"User: {CardHolder}, Time: {DateTime.Now}, Transaction: Deposit, Amount: {amount}");
+        var transaction = new Transaction(CardHolder, TransactionType.Deposit, amount);
+        transactionHistory.Add($"User: {CardHolder}, Time: {DateTime.Now}, Transaction: Withdraw, Amount: {amount};");
         SaveTransactionHistory();
     }
 
     public void Withdraw(decimal amount)
     {
         Balance -= amount;
+        var transaction = new Transaction(CardHolder, TransactionType.Withdraw, amount);
         transactionHistory.Add($"User: {CardHolder}, Time: {DateTime.Now}, Transaction: Withdraw, Amount: {amount};");
         SaveTransactionHistory();
     }

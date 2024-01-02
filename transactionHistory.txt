@@ -1,1 +1,2 @@
-User: John Smith, Time: 1/1/2024 4:13:11 PM, Transaction: Withdraw, Amount: 2000;
+User: John Smith, Time: 1/2/2024 12:11:06 PM, Transaction: Withdraw, Amount: 200;
+User: John Smith, Time: 1/2/2024 12:11:14 PM, Transaction: Withdraw, Amount: 40000;
