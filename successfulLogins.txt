@@ -1,0 +1,3 @@
+Succesful login for user: Rose Smith at 1/3/2024 12:08:46 PM
+Succesful login for user: Rose Smith at 1/3/2024 2:33:03 PM
+Succesful login for user: John Smith at 1/3/2024 2:34:55 PM

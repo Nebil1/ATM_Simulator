@@ -1,1 +1,10 @@
 User: John Smith, Time: 1/2/2024 6:39:53 PM, Transaction: Withdraw, Amount: 300;
+User: John Smith, Time: 1/2/2024 9:48:08 PM, Transaction: Withdraw, Amount: 1000;
+User: Rose Smith, Time: 1/2/2024 9:49:11 PM, Transaction: Withdraw, Amount: 4444;
+User: Rose Smith, Time: 1/3/2024 12:08:57 PM, Transaction: Withdraw, Amount: 200;
+User: Rose Smith, Time: 1/3/2024 2:33:23 PM, Transaction: Withdraw, Amount: 100;
+User: Rose Smith, Time: 1/3/2024 2:33:23 PM, Transaction: Withdraw, Amount: 100;
+User: Rose Smith, Time: 1/3/2024 2:33:29 PM, Transaction: Withdraw, Amount: 1000;
+User: John Smith, Time: 1/3/2024 2:35:07 PM, Transaction: Withdraw, Amount: 300.78;
+User: John Smith, Time: 1/3/2024 2:35:07 PM, Transaction: Withdraw, Amount: 300.78;
+User: John Smith, Time: 1/3/2024 2:35:26 PM, Transaction: Withdraw, Amount: 100.23;

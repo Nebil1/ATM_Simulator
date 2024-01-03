@@ -6,6 +6,7 @@ namespace ATM_Simulator
    class ATM
    {
     private  List<Account> accounts; 
+    private Logger logger = new Logger();
     
     enum MenuOption
     {
@@ -20,7 +21,7 @@ namespace ATM_Simulator
         accounts = new List<Account>
         {
             new Account("John Smith", "100021", 1111, "123123123", 2000),
-            new Account("Jane Smith", "100023", 2222, "321321321", 3000),
+            new Account("Rose Smith", "100023", 2222, "321321321", 3000),
         };
     }
 
@@ -28,7 +29,7 @@ namespace ATM_Simulator
     {
         WriteLine("======================================");
         WriteLine("||                                  ||");
-        WriteLine("||          WELCOME TO ATM          ||");
+        WriteLine("||              WELCOME             ||");
         WriteLine("||                                  ||");
         WriteLine("======================================");
     }
@@ -80,6 +81,7 @@ namespace ATM_Simulator
             catch (Exception ex)
             {
                 WriteLine("An error occured: " + ex.Message);
+                logger.LogSystemError(ex);
                 attempts++;
             }
         }
@@ -106,6 +108,8 @@ namespace ATM_Simulator
 
         // Login successful
         WriteLine($"\nWelcome {account.CardHolder}\n");
+        logger.LogSuccessfulLogin(account.CardHolder);
+        logger.LogUserActivity(account.CardHolder, $" Log in at {DateTime.Now}");
 
         bool continueUsingATM = true;
         while(continueUsingATM)
@@ -120,6 +124,7 @@ namespace ATM_Simulator
                 case MenuOption.CheckBalance:
                     ForegroundColor = ConsoleColor.Blue;
                     WriteLine($"\nYour balance is {account.Balance:C} \n");
+                    logger.LogUserActivity(account.CardHolder, $" Checked balance of {account.Balance}");
                     ResetColor();
                     break;
 
@@ -147,6 +152,7 @@ namespace ATM_Simulator
                                 account.Withdraw(amount);
                                 ForegroundColor = ConsoleColor.Green;
                                 WriteLine($"\nWithdrawal successful. Your new balance is {account.Balance:C}\n");
+                                logger.LogUserActivity(account.CardHolder, $" Withdrawal of {amount}");
                                 ResetColor();
                                 break;
                             }
@@ -177,6 +183,7 @@ namespace ATM_Simulator
                                 account.Deposit(depositAmount);
                                 ForegroundColor = ConsoleColor.Green;
                                 WriteLine($"\nDeposit successful. Your new balance is {account.Balance:C}\n");
+                                logger.LogUserActivity(account.CardHolder, $" Deposit of {depositAmount}");
                                 ResetColor();
                                 break;
                             }
@@ -191,6 +198,7 @@ namespace ATM_Simulator
 
                 case MenuOption.Exit:
                     WriteLine("\nThank you for using our ATM");
+                    logger.LogUserActivity(account.CardHolder, $" Log out at {DateTime.Now}");
                     continueUsingATM = false;
                     break;
                     
