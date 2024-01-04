@@ -10,3 +10,7 @@ User: Rose Smith, Activity:  Log out at 1/3/2024 2:33:31 PM, Time: 1/3/2024 2:33
 User: John Smith, Activity:  Log in at 1/3/2024 2:34:55 PM, Time: 1/3/2024 2:34:55 PM
 User: John Smith, Activity:  Withdrawal of 300.78, Time: 1/3/2024 2:35:07 PM
 User: John Smith, Activity:  Withdrawal of 100.23, Time: 1/3/2024 2:35:26 PM
+User: Rose Smith, Activity:  Log in at 1/4/2024 2:22:59 PM, Time: 1/4/2024 2:22:59 PM
+User: Rose Smith, Activity:  Withdrawal of 200, Time: 1/4/2024 2:23:04 PM
+User: Rose Smith, Activity:  Deposit of 300, Time: 1/4/2024 2:23:15 PM
+User: Rose Smith, Activity:  Log out at 1/4/2024 2:23:16 PM, Time: 1/4/2024 2:23:16 PM
