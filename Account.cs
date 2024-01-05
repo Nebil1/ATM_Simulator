@@ -25,7 +25,7 @@ class Account
     {
         Balance += amount;
         var transaction = new Transaction(CardHolder, TransactionType.Deposit, amount);
-        transactionHistory.Add($"User: {CardHolder}, Time: {DateTime.Now}, Transaction: Withdraw, Amount: {amount};");
+        transactionHistory.Add($"User: {CardHolder}, Time: {DateTime.Now}, Transaction: Deposit, Amount: {amount}");
         SaveTransactionHistory();
     }
 
@@ -33,7 +33,7 @@ class Account
     {
         Balance -= amount;
         var transaction = new Transaction(CardHolder, TransactionType.Withdraw, amount);
-        transactionHistory.Add($"User: {CardHolder}, Time: {DateTime.Now}, Transaction: Withdraw, Amount: {amount};");
+        transactionHistory.Add($"User: {CardHolder}, Time: {DateTime.Now}, Transaction: Withdraw, Amount: {amount}");
         SaveTransactionHistory();
     }
 
@@ -41,7 +41,14 @@ class Account
     {
         try
         {
-            System.IO.File.AppendAllLines("transactionHistory.txt", transactionHistory);
+            string logFolder = "logs";
+        if (!Directory.Exists(logFolder))
+        {
+            Directory.CreateDirectory(logFolder);
+        }
+        
+        File.AppendAllLines(Path.Combine(logFolder,"transactionHistory.txt"), transactionHistory);
+
         }
         catch (Exception ex)
         {

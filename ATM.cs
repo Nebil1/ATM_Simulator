@@ -1,8 +1,7 @@
-//using System;
 using static System.Console;
 
-namespace ATM_Simulator
-{
+namespace ATM_Simulator;
+
    class ATM
    {
     private  List<Account> accounts; 
@@ -109,7 +108,7 @@ namespace ATM_Simulator
         // Login successful
         WriteLine($"\nWelcome {account.CardHolder}\n");
         logger.LogSuccessfulLogin(account.CardHolder);
-        logger.LogUserActivity(account.CardHolder, $" Log in at {DateTime.Now}");
+        logger.LogUserActivity(account.CardHolder, $" Log in");
 
         bool continueUsingATM = true;
         while(continueUsingATM)
@@ -198,7 +197,7 @@ namespace ATM_Simulator
 
                 case MenuOption.Exit:
                     WriteLine("\nThank you for using our ATM");
-                    logger.LogUserActivity(account.CardHolder, $" Log out at {DateTime.Now}");
+                    logger.LogUserActivity(account.CardHolder, $" Log out");
                     continueUsingATM = false;
                     break;
                     
@@ -255,5 +254,4 @@ namespace ATM_Simulator
             return DisplayMenuAndGetSelection(); // Recursively call the method until a valid input is received
         }
     }
-  }
 }

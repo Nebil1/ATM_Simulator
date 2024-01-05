@@ -1,7 +1,7 @@
 using System;
 
-namespace ATM_Simulator
-{
+namespace ATM_Simulator;
+
     public enum TransactionType
     {
         Deposit,
@@ -28,7 +28,3 @@ namespace ATM_Simulator
             return $"Account: {AccountNumber}, Time: {Timestamp}, Transaction: {Type}, Amount: {Amount}";
         }
     }
-
-
-    
-}

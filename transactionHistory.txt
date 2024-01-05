@@ -1,3 +1,0 @@
-User: Rose Smith, Time: 1/4/2024 2:23:04 PM, Transaction: Withdraw, Amount: 200;
-User: Rose Smith, Time: 1/4/2024 2:23:04 PM, Transaction: Withdraw, Amount: 200;
-User: Rose Smith, Time: 1/4/2024 2:23:15 PM, Transaction: Withdraw, Amount: 300;

@@ -14,7 +14,6 @@ class Logger
         }
     }
 
-
     public void LogSuccessfulLogin(string username)
     {
         string logMessage = $"Succesful login for user: {username} at {DateTime.Now}";

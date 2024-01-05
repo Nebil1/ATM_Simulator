@@ -1,16 +1,4 @@
-User: Rose Smith, Activity:  Log in at 1/3/2024 12:08:47 PM, Time: 1/3/2024 12:08:47 PM
-User: Rose Smith, Activity:  Checked balance of 3000, Time: 1/3/2024 12:08:49 PM
-User: Rose Smith, Activity:  Withdrawal of 200, Time: 1/3/2024 12:08:57 PM
-User: Rose Smith, Activity:  Log out at 1/3/2024 12:09:00 PM, Time: 1/3/2024 12:09:00 PM
-User: Rose Smith, Activity:  Log in at 1/3/2024 2:33:03 PM, Time: 1/3/2024 2:33:03 PM
-User: Rose Smith, Activity:  Checked balance of 3000, Time: 1/3/2024 2:33:05 PM
-User: Rose Smith, Activity:  Withdrawal of 100, Time: 1/3/2024 2:33:23 PM
-User: Rose Smith, Activity:  Deposit of 1000, Time: 1/3/2024 2:33:29 PM
-User: Rose Smith, Activity:  Log out at 1/3/2024 2:33:31 PM, Time: 1/3/2024 2:33:31 PM
-User: John Smith, Activity:  Log in at 1/3/2024 2:34:55 PM, Time: 1/3/2024 2:34:55 PM
-User: John Smith, Activity:  Withdrawal of 300.78, Time: 1/3/2024 2:35:07 PM
-User: John Smith, Activity:  Withdrawal of 100.23, Time: 1/3/2024 2:35:26 PM
-User: Rose Smith, Activity:  Log in at 1/4/2024 2:22:59 PM, Time: 1/4/2024 2:22:59 PM
-User: Rose Smith, Activity:  Withdrawal of 200, Time: 1/4/2024 2:23:04 PM
-User: Rose Smith, Activity:  Deposit of 300, Time: 1/4/2024 2:23:15 PM
-User: Rose Smith, Activity:  Log out at 1/4/2024 2:23:16 PM, Time: 1/4/2024 2:23:16 PM
+User: John Smith, Activity:  Log in, Time: 1/5/2024 12:53:27 PM
+User: John Smith, Activity:  Withdrawal of 2000, Time: 1/5/2024 12:53:33 PM
+User: John Smith, Activity:  Deposit of 4000, Time: 1/5/2024 12:53:39 PM
+User: John Smith, Activity:  Log out, Time: 1/5/2024 12:53:40 PM
