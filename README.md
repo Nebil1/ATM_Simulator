@@ -17,7 +17,7 @@ After the application starts, you can use the console to interact with the ATM.
 
 ## Features
 
-- User Authentication: The application authenticates users based on their card number and PIN.
+- User Authentication: The application authenticates  users based on their card number and PIN.
 - Balance Inquiry: Users can check their account balance.
 - Deposit: Users can deposit money into their account.
 - Withdraw: Users can withdraw money from their account.
