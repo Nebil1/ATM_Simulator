@@ -1,4 +1,5 @@
 using System;
+using static System.Console;
 
 namespace ATM_Simulator{
 
@@ -52,7 +53,7 @@ class Account
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"\n{ex.Message}");
+            WriteLine($"\n{ex.Message}");
         }
     }
   }
