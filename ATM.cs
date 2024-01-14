@@ -73,7 +73,9 @@ namespace ATM_Simulator;
                 }
                 else
                 {
+                    ForegroundColor = ConsoleColor.Red;
                     WriteLine("Invalid Card number or pin");
+                    ResetColor();
                     attempts++;
                 }
             }
